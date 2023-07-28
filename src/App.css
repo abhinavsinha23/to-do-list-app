@@ -1,0 +1,76 @@
+body {
+  background-image: linear-gradient(to right, #5D3FD3,	#BF40BF);
+}
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.addTask {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 80%;
+  margin: auto;
+}
+
+.addBtn {
+  background-color: purple;
+}
+
+.task, .taskDone {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.task {
+  background-color: white;
+}
+
+.taskDone {
+  background-color: #CBC3E3;
+}
+.task:hover {
+  transition-duration: 0.4s;
+  transform: scale(1.1);
+}
+
+.taskInfo {
+  width: 50%;
+}
+
+.doneBtn {
+  margin-left: 20%;
+  background-color: green;
+}
+.deleteBtn {
+  background-color: red;
+}
+
+button:hover{
+  filter: brightness(0.6);
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.fa {
+  color: white;
+}
